@@ -24,6 +24,15 @@ Membuat widget text section
 Menambahkan variabel text section ke body
 ![alt text](image-10.png)
 
+# Praktikum 4 Implementasi Image Section
+
+Membuat folder assets untuk gambar
+![alt text](image-11.png)
+Menambahkan asset gambar ke body
+![img](image-12.png)
+Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
+![listview](image-13.png)
+
 
 
 
