@@ -93,6 +93,7 @@ final Widget buttonSection = Container(
   ),
 );
 
+// ===== Helper Method =====
 Column _buildButtonColumn(Color color, IconData icon, String label) {
   return Column(
     mainAxisSize: MainAxisSize.min,
