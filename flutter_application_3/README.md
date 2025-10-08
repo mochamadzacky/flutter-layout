@@ -18,5 +18,12 @@ buttonSection adalah baris (Row) yang berisi tiga kolom tombol. Setiap kolom dib
 Menambahkan button section ke body
 ![button section](image-8.png)
 
+# Praktikum 3 Implementasi Text Section
+Membuat widget text section
+![text](image-9.png)
+Menambahkan variabel text section ke body
+![alt text](image-10.png)
+
+
 
 
