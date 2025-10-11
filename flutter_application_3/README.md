@@ -34,5 +34,35 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 ![listview](image-13.png)
 
 
+# Praktikum 5 Membangun Navigasi di Flutter
+Membuat projek baru flutter dengan nama belanja dan menyusun folder seperti berikut
+![folder](image-14.png)
+
+Membuat 2 buah file bernama home_page.dart dan item_page.dart dalam folder pages
+Kemudian untuk masing-masing file, deklarasikan class HomePage pada file home_page.dart dan ItemPage pada item_page.dart. Turunkan class dari StatelessWidget. Gambaran potongan kode dapat anda lihat sebagai berikut
+![home page](image-15.png)
+![item page](image-16.png)
+
+Setelah kedua halaman telah dibuat dan didefinisikan, bukalah file main.dart. Pada langkah ini anda akan mendefinisikan Route untuk kedua halaman tersebut. Definisi penamaan route harus bersifat unique. Halaman HomePage didefinisikan sebagai /. Dan halaman ItemPage didefinisikan sebagai /item. Untuk mendefinisikan halaman awal, anda dapat menggunakan named argument initialRoute
+![main.dart](image-17.png)
+
+Membuat proses pemodelan data dengan membuat file item.dart dan diletakkan pada folder models
+![item](image-18.png)
+
+Melengkapi kode di class home pages
+![home pages](image-19.png)
+
+Untuk menampilkan ListView pada praktikum ini digunakan itemBuilder. Data diambil dari definisi model yang telah dibuat sebelumnya. Untuk menunjukkan batas data satu dan berikutnya digunakan widget Card. Kode yang telah umum pada bagian ini tidak ditampilkan.
+![homepages](image-20.png)
+
+Tampilan setelah dijalankan 
+![tampilan](image-21.png)
+
+Menambahkan aksi pada ListView
+Untuk menambahkan sentuhan, letakkan cursor pada widget pembuka Card. Kemudian gunakan shortcut quick fix dari VSCode (Ctrl + . pada Windows atau Cmd + . pada MacOS). Sorot menu wrap with widget... Ubah nilai widget menjadi InkWell serta tambahkan named argument onTap yang berisi fungsi untuk berpindah ke halaman ItemPage. 
+![inkwell](image-22.png)
+
+Dan seperti berikut hasilnya setelah dijalankan, saat di klik salah satu item di home page akan berpindah ke item page 
+![itempages](image-23.png)
 
 
