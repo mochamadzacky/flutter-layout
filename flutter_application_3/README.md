@@ -65,4 +65,27 @@ Untuk menambahkan sentuhan, letakkan cursor pada widget pembuka Card. Kemudian g
 Dan seperti berikut hasilnya setelah dijalankan, saat di klik salah satu item di home page akan berpindah ke item page 
 ![itempages](image-23.png)
 
+# Tugas Praktikum 2
+Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator
+
+![itempages](image-24.png)
+
+Menambahkan atribut foto produk,stock, dan rating
+yang pertama mengubah models item agar mencakup atribut baru 
+![item](image-25.png)
+
+Kemudian mengedit file pages untuk menambahkan data sesuai atribut baru 
+![home](image-26.png)
+
+pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
+Membuat file item_card.dart dan footer.dart pada folder widgets
+![widgets](image-27.png)
+
+Dan tampilan akhir seperti berikut 
+![homepages](image-28.png)
+![item](image-29.png)
+![item](image-30.png)
+
+
+
 
